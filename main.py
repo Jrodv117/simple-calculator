@@ -26,3 +26,5 @@ num2 = int(input("Second number:"))
 
 for key in calculator_dictionary:
     print(key)
+
+operation_symbol = input("Pick an operation listed above: ")
