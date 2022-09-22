@@ -33,3 +33,5 @@ operation_symbol = input("Pick an operation listed above: ")
 calculation = calculator_dictionary[operation_symbol]
 
 answer = calculation(num1, num2)
+
+print(f"{num1} {operation_symbol} {num2} = {answer}")
