@@ -28,3 +28,8 @@ for key in calculator_dictionary:
     print(key)
 
 operation_symbol = input("Pick an operation listed above: ")
+
+
+calculation = calculator_dictionary[operation_symbol]
+
+answer = calculation(num1, num2)
